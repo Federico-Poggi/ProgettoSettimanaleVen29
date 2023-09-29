@@ -108,12 +108,11 @@ form p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 0 5em;
 }
 
-.card-container:nth-child()
 .card{
     display: flex;
-    margin-right: 4em ;
 }
 
 .number{
