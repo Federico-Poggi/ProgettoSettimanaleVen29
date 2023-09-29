@@ -87,6 +87,7 @@ form p{
     margin: 0 auto;
     margin-top: 2em ;
     border-bottom: 1px solid grey;
+    padding-bottom: 1em;
 }
 
 #title{
