@@ -83,7 +83,7 @@ form p{
 #main{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 2em ;
     border-bottom: 1px solid grey;
@@ -109,9 +109,11 @@ form p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.card-container:nth-child()
 .card{
     display: flex;
-    margin-right: 1em ;
+    margin-right: 4em ;
 }
 
 .number{
@@ -165,8 +167,9 @@ section{
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: rgba(163, 162, 162, 0.833);
+    color: rgb(128, 127, 127);
     width: 70%;
+    margin-bottom: 20px;
 }
 
 .other-container{
@@ -208,10 +211,18 @@ section{
 
 .date1{
     display: flex;
-    font-size: 0.6em;
+    font-size: 0.5em;
     align-items: center;
 }
 
-.date1:last-child{
-    justify-items: end;
+.float{
+    height: 2em;
+    margin-left: 17em;
+}
+.type{
+    border: 1px solid white;
+    border-radius: 10px ;
+    background-color: rgb(191, 190, 190);
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
 }
